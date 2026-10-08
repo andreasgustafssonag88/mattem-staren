@@ -1,0 +1,1 @@
+Lägg App.jsx, styles.css, main.jsx och ProvtraningKapitel1.jsx i src. Ersätt befintliga App.jsx och styles.css. Commit: Lägg till Träna inför provet Kapitel 1.
