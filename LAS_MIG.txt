@@ -1,0 +1,14 @@
+MATEMATIKMÄSTARNA - KORRIGERAD STARTSIDA
+
+Den här versionen rättar den oformaterade startsidan:
+- fullbredda sektionspaneler
+- två jämna kort per rad på stora skärmar
+- korrekt mellanrum och typografi
+- inga överlappande texter
+- responsiv layout på Chromebook, surfplatta och mobil
+- den dubbla profilrutan är dold
+
+Publicering:
+1. Ersätt src/App.jsx och src/styles.css.
+2. Behåll övriga filer oförändrade.
+3. Commit: Korrigera startsidans layout och kortdesign
