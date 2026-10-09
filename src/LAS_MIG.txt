@@ -1,17 +1,14 @@
-MATEMATIKMÄSTARNA - KORRIGERAD DESIGN FÖR ÖVA INFÖR PROVET
+MATEMATIKMÄSTARNA - SAMMANSLAGEN CSS-RÄTTNING
 
-Startsidan lämnas oförändrad.
-Den här uppdateringen lägger till komplett design för provtränarens:
-- introduktionssida
-- stegkort
-- Startkoll
-- svarsalternativ
-- stor skrivyta med rutnät
-- analyskort
-- resultatvy
-- Chromebook-, surfplatte- och mobilanpassning
+Denna fil innehåller samtidigt:
+- den korrekta, tydliga startsidan
+- den kompletta designen för Öva inför provet
+- dold duplicerad profilruta
+
+Det här löser versionskrocken där den ena CSS-uppdateringen skrev över den andra.
 
 Publicering:
-1. Ersätt endast src/styles.css.
+1. Ersätt endast src/styles.css med filen i denna ZIP.
 2. Behåll App.jsx, main.jsx och ProvtraningKapitel1.jsx oförändrade.
-3. Commit: Korrigera designen i Öva inför provet
+3. Commit: Sammanfoga startsidans och provträningens design
+4. Vänta på grön Action och gör Ctrl + Shift + R.
