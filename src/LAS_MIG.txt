@@ -1,1 +1,10 @@
-Lägg alla fem kodfiler i src. Ersätt App.jsx, styles.css, main.jsx och ProvtraningKapitel1.jsx. Lägg till provtraning-v2.css. Commit: Lägg till Provträning version 2.0.
+KORRIGERING AV STARTSIDAN EFTER PROVTRÄNING 2.0
+
+Denna uppdatering ändrar endast styles.css och återställer den tydliga startsidan.
+Provträning 2.0 och dess separata provtraning-v2.css lämnas oförändrade.
+
+Gör så här:
+1. Ersätt endast src/styles.css.
+2. Behåll App.jsx, main.jsx, ProvtraningKapitel1.jsx och provtraning-v2.css precis som de är.
+3. Commit: Återställ startsidans design efter Provträning 2.0
+4. Vänta på grön Action och gör Ctrl + Shift + R.
