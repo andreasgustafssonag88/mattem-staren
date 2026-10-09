@@ -1,1 +1,10 @@
-Lägg App.jsx, styles.css, main.jsx och ProvtraningKapitel1.jsx i src. Commit: Gör startsidan tydligare och lägg provträningen direkt på hemmet.
+MATEMATIKMÄSTARNA - TA BORT DUPLICERAD PROFILRUTA
+
+Den stora rutan med elevnamn, hjälte och XP döljs helt på startsidan.
+Elevnamn, nivå och XP finns fortsatt i sidhuvudet uppe till höger.
+Eftersom rutan får display:none lämnas inget tomt utrymme efter den.
+
+Publicering:
+- Ersätt endast src/styles.css.
+- App.jsx behöver inte ändras.
+- Commit: Ta bort duplicerad profilruta från startsidan
