@@ -1,10 +1,14 @@
-MATEMATIKMÄSTARNA - TA BORT DUPLICERAD PROFILRUTA
+MATEMATIKMÄSTARNA - KORRIGERAD STARTSIDA
 
-Den stora rutan med elevnamn, hjälte och XP döljs helt på startsidan.
-Elevnamn, nivå och XP finns fortsatt i sidhuvudet uppe till höger.
-Eftersom rutan får display:none lämnas inget tomt utrymme efter den.
+Den här versionen rättar den oformaterade startsidan:
+- fullbredda sektionspaneler
+- två jämna kort per rad på stora skärmar
+- korrekt mellanrum och typografi
+- inga överlappande texter
+- responsiv layout på Chromebook, surfplatta och mobil
+- den dubbla profilrutan är dold
 
 Publicering:
-- Ersätt endast src/styles.css.
-- App.jsx behöver inte ändras.
-- Commit: Ta bort duplicerad profilruta från startsidan
+1. Ersätt src/App.jsx och src/styles.css.
+2. Behåll övriga filer oförändrade.
+3. Commit: Korrigera startsidans layout och kortdesign

@@ -103,3 +103,32 @@ main{max-width:1540px;padding:38px 24px 48px;min-height:calc(100vh - 200px)}
 
 /* Dölj duplicerad profilruta på startsidan */
 .home-screen > .home-welcome{display:none!important}
+
+/* Korrigerad lättillgänglig startsida */
+.home-screen.home-accessible{max-width:1540px;display:grid;gap:22px;padding-top:24px}
+.home-accessible>.home-welcome{display:none!important}
+.home-section{width:100%;background:#ffffffdf;border:1px solid #e1e7f6;border-radius:30px;padding:24px 26px;box-shadow:0 15px 42px #1e3a8a11}
+.home-section-title{display:flex;align-items:center;gap:14px;margin-bottom:17px}
+.home-section-title>span{display:grid;place-items:center;flex:0 0 40px;width:40px;height:40px;border-radius:14px;background:#122257;color:#fff;font-weight:1000;font-size:18px}
+.home-section-title small{display:block;color:#3152bd;font-weight:950;letter-spacing:.12em}
+.home-section-title h2{margin:3px 0 0;font-size:24px;color:#101d45}
+.home-feature-grid,.home-compact-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;width:100%}
+.home-feature{width:100%;min-width:0;min-height:240px;border:2px solid #d7def1;border-radius:27px;background:#fff;color:#101d45;padding:0;overflow:hidden;text-align:left;display:grid;grid-template-columns:125px minmax(0,1fr);cursor:pointer;box-shadow:0 12px 30px #1e3a8a10;transition:transform .18s,box-shadow .18s,border-color .18s}
+.home-feature:hover,.home-feature:focus-visible,.home-compact:hover,.home-compact:focus-visible{transform:translateY(-3px);box-shadow:0 20px 44px #1e3a8a1c;border-color:#9fb1e8}
+.home-feature>span{display:grid;place-items:center;font-size:60px;background:#e0e7ff}
+.home-feature>div{min-width:0;padding:24px;display:flex;flex-direction:column;align-items:flex-start}
+.home-feature small{font-weight:950;letter-spacing:.08em;color:#3b52ae}
+.home-feature h2{font-size:clamp(23px,2vw,29px);line-height:1.15;margin:7px 0;color:#101d45}
+.home-feature p{color:#66708d;line-height:1.48;margin:8px 0;overflow-wrap:anywhere}
+.home-feature em{display:block;color:#5a6480;font-style:normal;font-weight:800;margin:11px 0 0}
+.home-feature b{display:flex;align-items:center;gap:5px;color:#243f9b;margin-top:auto;padding-top:16px;line-height:1.25}
+.home-feature b svg{flex:0 0 auto;width:18px}
+.exam-feature{border-color:#c4b5fd}.exam-feature>span{background:linear-gradient(145deg,#ede9fe,#c4b5fd)}
+.weekly-feature>span{background:linear-gradient(145deg,#fef3c7,#fdba74)}
+.discover-feature{border-color:#86efac}.discover-feature>span{background:linear-gradient(145deg,#dcfce7,#86efac)}
+.training-feature>span{background:linear-gradient(145deg,#dbeafe,#93c5fd)}
+.home-compact{width:100%;min-width:0;min-height:115px;border:1px solid #d7def1;border-radius:23px;background:#fff;color:#101d45;padding:18px 22px;display:flex;align-items:center;gap:17px;text-align:left;cursor:pointer;box-shadow:0 9px 24px #1e3a8a0e;transition:transform .18s,box-shadow .18s}
+.home-compact>span{font-size:42px}.home-compact>div{min-width:0;flex:1}.home-compact h2{margin:0;font-size:24px}.home-compact p,.home-compact em{margin:3px 0;color:#66708d;font-style:normal}.home-compact>svg{flex:0 0 auto;color:#3152bd}
+.home-current{border-top:5px solid #7c3aed}.home-support{border-top:5px solid #10b981}.home-explore{border-top:5px solid #3152bd}
+@media(max-width:850px){.home-feature-grid,.home-compact-grid{grid-template-columns:1fr}.home-feature{grid-template-columns:100px minmax(0,1fr)}.home-feature>span{font-size:48px}.home-section{padding:18px}.home-section-title h2{font-size:21px}}
+@media(max-width:520px){.home-screen.home-accessible{padding-top:12px}.home-feature{grid-template-columns:1fr;min-height:0}.home-feature>span{height:85px}.home-feature>div{padding:19px}.home-section{padding:16px;border-radius:22px}.home-section-title>span{display:none}.home-compact{padding:16px}.home-feature h2{font-size:23px}}
