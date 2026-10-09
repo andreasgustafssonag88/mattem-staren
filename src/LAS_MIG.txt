@@ -1,14 +1,1 @@
-MATEMATIKMÄSTARNA - SAMMANSLAGEN CSS-RÄTTNING
-
-Denna fil innehåller samtidigt:
-- den korrekta, tydliga startsidan
-- den kompletta designen för Öva inför provet
-- dold duplicerad profilruta
-
-Det här löser versionskrocken där den ena CSS-uppdateringen skrev över den andra.
-
-Publicering:
-1. Ersätt endast src/styles.css med filen i denna ZIP.
-2. Behåll App.jsx, main.jsx och ProvtraningKapitel1.jsx oförändrade.
-3. Commit: Sammanfoga startsidans och provträningens design
-4. Vänta på grön Action och gör Ctrl + Shift + R.
+Lägg alla fem kodfiler i src. Ersätt App.jsx, styles.css, main.jsx och ProvtraningKapitel1.jsx. Lägg till provtraning-v2.css. Commit: Lägg till Provträning version 2.0.
