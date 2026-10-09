@@ -1,14 +1,17 @@
-MATEMATIKMÄSTARNA - KORRIGERAD STARTSIDA
+MATEMATIKMÄSTARNA - KORRIGERAD DESIGN FÖR ÖVA INFÖR PROVET
 
-Den här versionen rättar den oformaterade startsidan:
-- fullbredda sektionspaneler
-- två jämna kort per rad på stora skärmar
-- korrekt mellanrum och typografi
-- inga överlappande texter
-- responsiv layout på Chromebook, surfplatta och mobil
-- den dubbla profilrutan är dold
+Startsidan lämnas oförändrad.
+Den här uppdateringen lägger till komplett design för provtränarens:
+- introduktionssida
+- stegkort
+- Startkoll
+- svarsalternativ
+- stor skrivyta med rutnät
+- analyskort
+- resultatvy
+- Chromebook-, surfplatte- och mobilanpassning
 
 Publicering:
-1. Ersätt src/App.jsx och src/styles.css.
-2. Behåll övriga filer oförändrade.
-3. Commit: Korrigera startsidans layout och kortdesign
+1. Ersätt endast src/styles.css.
+2. Behåll App.jsx, main.jsx och ProvtraningKapitel1.jsx oförändrade.
+3. Commit: Korrigera designen i Öva inför provet
