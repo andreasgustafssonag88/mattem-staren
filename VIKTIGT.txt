@@ -1,9 +1,6 @@
-MATEMATIKMASTARNA - RATTNING AV OVA INFÖR PROVET
+RATTNING FOR GAMLA ANVANDARE
 
-Rattningen gor att provtraningen alltid oppnas pa sin startsida.
-Tidigare kunde ett gammalt sparat lage forsoka oppna ett traningspass
-utan att fragorna hade skapats, vilket gjorde att sidan kraschade.
-
-Ladda upp hela innehållet till repositoryt och ersatt befintliga filer.
-Filerna App.jsx, main.jsx, ProvtraningKapitel1.jsx, styles.css och
-provtraning-v2.css ska ligga i src-mappen.
+Provtraningens interna lagringsnyckel har andrats fran v2 till v3.
+Det gor att gamla trasiga sparlagen inte laddas.
+Elevprofiler, stjarnor och ovriga framsteg paverkas inte.
+Endast tidigare sparad progression inne i Ova infor provet borjar om.
