@@ -1,0 +1,9 @@
+MATEMATIKMASTARNA - RATTNING AV OVA INFÖR PROVET
+
+Rattningen gor att provtraningen alltid oppnas pa sin startsida.
+Tidigare kunde ett gammalt sparat lage forsoka oppna ett traningspass
+utan att fragorna hade skapats, vilket gjorde att sidan kraschade.
+
+Ladda upp hela innehållet till repositoryt och ersatt befintliga filer.
+Filerna App.jsx, main.jsx, ProvtraningKapitel1.jsx, styles.css och
+provtraning-v2.css ska ligga i src-mappen.
