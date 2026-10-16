@@ -58,7 +58,7 @@ const MEMORY_LABELS={
  "training-multiplication":"multiplikationstabeller","training-division":"divisionstabeller","training-addition":"additionstalfakta","training-subtraction":"subtraktionstalfakta","training-mixed":"blandad huvudräkning",
  "world-add":"addition med uppställning","world-sub":"subtraktion med uppställning","world-mul":"multiplikation med uppställning","world-div":"division","world-decimal":"decimaltal",
  "choose-operation":"välja räknesätt","multiplicative-thinking":"lika stora grupper","division-sharing":"dela lika","irrelevant-information":"viktig information","inverse-operation":"räkna baklänges","reasonableness":"rimliga svar","error-analysis":"hitta och förklara fel","multi-step":"problem i flera steg","budget":"pengar och budget","proportionality":"proportionella samband","time":"tid","remainder":"tolka rest","pattern":"mönster","logic":"logiska villkor","inverse-multi-step":"räkna baklänges i flera steg","open-problem":"öppna problem","optimization":"välja bästa lösningen","generalization":"generalisera mönster","combinatorics":"kombinationer","counterexample":"motexempel","constraint":"problem med flera villkor",
- ...SKILL_NAMES,...DISCOVER_SKILL_NAMES
+ 
 };
 const memoryLabel=skill=>MEMORY_LABELS[skill]||String(skill||"").replaceAll("-"," ");
 const memoryPriority=item=>item.status===MEMORY_STATUS.REVIEW?5:item.status===MEMORY_STATUS.DEVELOPING?4:item.status===MEMORY_STATUS.SUPPORTED?3:item.status===MEMORY_STATUS.NEW?2:1;

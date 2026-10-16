@@ -1,14 +1,10 @@
-MATEMATIKMÄSTARNA - KORRIGERAD STARTSIDA
+KORRIGERING AV STARTSIDAN EFTER PROVTRÄNING 2.0
 
-Den här versionen rättar den oformaterade startsidan:
-- fullbredda sektionspaneler
-- två jämna kort per rad på stora skärmar
-- korrekt mellanrum och typografi
-- inga överlappande texter
-- responsiv layout på Chromebook, surfplatta och mobil
-- den dubbla profilrutan är dold
+Denna uppdatering ändrar endast styles.css och återställer den tydliga startsidan.
+Provträning 2.0 och dess separata provtraning-v2.css lämnas oförändrade.
 
-Publicering:
-1. Ersätt src/App.jsx och src/styles.css.
-2. Behåll övriga filer oförändrade.
-3. Commit: Korrigera startsidans layout och kortdesign
+Gör så här:
+1. Ersätt endast src/styles.css.
+2. Behåll App.jsx, main.jsx, ProvtraningKapitel1.jsx och provtraning-v2.css precis som de är.
+3. Commit: Återställ startsidans design efter Provträning 2.0
+4. Vänta på grön Action och gör Ctrl + Shift + R.
